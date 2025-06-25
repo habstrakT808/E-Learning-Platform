@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f4ff" />
+      <stop offset="100%" stop-color="#dbeafe" />
+    </linearGradient>
+    <pattern id="pattern-dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2" fill="#4f46e5" opacity="0.1" />
+    </pattern>
+  </defs>
+
+  <!-- Main certificate background -->
+  <rect width="800" height="400" fill="url(#bg-gradient)" />
+  <rect width="800" height="400" fill="url(#pattern-dots)" />
+  
+  <!-- Certificate border -->
+  <rect x="20" y="20" width="760" height="360" stroke="#4338ca" stroke-width="2" fill="none" rx="8" />
+  <rect x="30" y="30" width="740" height="340" stroke="#4338ca" stroke-width="1" stroke-dasharray="2" fill="none" rx="6" />
+
+  <!-- Certificate header -->
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e40af">Certificate of Completion</text>
+  
+  <!-- Decorative line -->
+  <line x1="300" y1="95" x2="500" y2="95" stroke="#4f46e5" stroke-width="3" />
+
+  <!-- Python logo -->
+  <g transform="translate(60, 70) scale(0.5)">
+    <path d="M60.51,6.398c-5.931-0.375-11.625,0.031-16.563,0.996c-14.688,2.875-17.406,8.891-17.406,19.996V41.75h34.844v4.406H26.542H16.542c-11.125,0-20.844,6.684-23.906,19.406C-10.969,79.957-11.5,93.809,16.542,107.8c7.812,3.89,16.641,6.75,26.625,6.75h19.313v-16.75c0-12.081,10.469-22.719,23.906-22.719h38.156c10.625,0,19.313-8.75,19.313-19.406V27.39c0-10.344-8.719-18.116-19.313-19.844C115.004,5.957,78.553,5.512,60.51,6.398z M46.104,14.992c3.594,0,6.531,2.981,6.531,6.656c0,3.656-2.938,6.625-6.531,6.625c-3.625,0-6.563-2.969-6.563-6.625C39.542,17.973,42.479,14.992,46.104,14.992z" fill="#366a96"/>
+    <path d="M106.292,46.156v16.281c0,12.656-10.719,23.312-23.906,23.312H44.229c-10.469,0-19.313,8.969-19.313,19.406v36.375c0,10.344,9,16.406,19.313,19.375c12.406,3.531,24.281,4.188,38.156,0c9.219-2.781,19.313-8.344,19.313-19.375v-14.562h-38.156v-4.406h38.156h19.313c11.125,0,15.281-7.75,19.313-19.406c4.188-12.031,4-23.594,0-39.188c-2.875-11.188-8.376-19.406-19.313-19.406H106.292z M83.979,152.125c3.625,0,6.563,2.969,6.563,6.625c0,3.688-2.938,6.656-6.563,6.656c-3.594,0-6.531-2.969-6.531-6.656C77.448,155.094,80.385,152.125,83.979,152.125z" fill="#ffc331"/>
+  </g>
+
+  <!-- Certificate content -->
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#1e3a8a">This certifies that</text>
+  <text x="400" y="190" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e3a8a">Jane Student</text>
+  <text x="400" y="230" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#1e3a8a">has successfully completed</text>
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#1e3a8a">Python for Data Science</text>
+  
+  <!-- Date -->
+  <text x="200" y="340" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#4338ca">09 Jun 2025</text>
+  <line x1="130" y1="350" x2="270" y2="350" stroke="#4338ca" stroke-width="1" />
+  <text x="200" y="370" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#4338ca">Date</text>
+
+  <!-- Signature -->
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="14" font-style="italic" text-anchor="middle" fill="#4338ca">LearnHub Platform</text>
+  <line x1="530" y1="350" x2="670" y2="350" stroke="#4338ca" stroke-width="1" />
+  <text x="600" y="370" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#4338ca">Signature</text>
+
+  <!-- Certificate ID -->
+  <text x="400" y="390" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#6b7280">Certificate ID: CERT-2025-9A278F</text>
+</svg> 
